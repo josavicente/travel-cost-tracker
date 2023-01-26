@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		806D3C242982E7EC00BF8FC8 /* travel_cost_trackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C232982E7EC00BF8FC8 /* travel_cost_trackerApp.swift */; };
+		806D3C262982E7EC00BF8FC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C252982E7EC00BF8FC8 /* ContentView.swift */; };
+		806D3C282982E7EC00BF8FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806D3C272982E7EC00BF8FC8 /* Assets.xcassets */; };
+		806D3C2B2982E7EC00BF8FC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806D3C2A2982E7EC00BF8FC8 /* Preview Assets.xcassets */; };
+		806D3C2D2982E7EC00BF8FC8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C2C2982E7EC00BF8FC8 /* Persistence.swift */; };
+		806D3C302982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C2E2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodeld */; };
+		806D3C3B2982E7ED00BF8FC8 /* travel_cost_trackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C3A2982E7ED00BF8FC8 /* travel_cost_trackerTests.swift */; };
+		806D3C452982E7ED00BF8FC8 /* travel_cost_trackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C442982E7ED00BF8FC8 /* travel_cost_trackerUITests.swift */; };
+		806D3C472982E7ED00BF8FC8 /* travel_cost_trackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806D3C462982E7ED00BF8FC8 /* travel_cost_trackerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		806D3C372982E7ED00BF8FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806D3C182982E7EC00BF8FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806D3C1F2982E7EC00BF8FC8;
+			remoteInfo = "travel-cost-tracker";
+		};
+		806D3C412982E7ED00BF8FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 806D3C182982E7EC00BF8FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 806D3C1F2982E7EC00BF8FC8;
+			remoteInfo = "travel-cost-tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		806D3C202982E7EC00BF8FC8 /* travel-cost-tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "travel-cost-tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806D3C232982E7EC00BF8FC8 /* travel_cost_trackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_cost_trackerApp.swift; sourceTree = "<group>"; };
+		806D3C252982E7EC00BF8FC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		806D3C272982E7EC00BF8FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		806D3C2A2982E7EC00BF8FC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		806D3C2C2982E7EC00BF8FC8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		806D3C2F2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = travel_cost_tracker.xcdatamodel; sourceTree = "<group>"; };
+		806D3C312982E7EC00BF8FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806D3C362982E7ED00BF8FC8 /* travel-cost-trackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travel-cost-trackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806D3C3A2982E7ED00BF8FC8 /* travel_cost_trackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_cost_trackerTests.swift; sourceTree = "<group>"; };
+		806D3C402982E7ED00BF8FC8 /* travel-cost-trackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "travel-cost-trackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		806D3C442982E7ED00BF8FC8 /* travel_cost_trackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_cost_trackerUITests.swift; sourceTree = "<group>"; };
+		806D3C462982E7ED00BF8FC8 /* travel_cost_trackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travel_cost_trackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		806D3C1D2982E7EC00BF8FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C332982E7ED00BF8FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C3D2982E7ED00BF8FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		806D3C172982E7EC00BF8FC8 = {
+			isa = PBXGroup;
+			children = (
+				806D3C222982E7EC00BF8FC8 /* travel-cost-tracker */,
+				806D3C392982E7ED00BF8FC8 /* travel-cost-trackerTests */,
+				806D3C432982E7ED00BF8FC8 /* travel-cost-trackerUITests */,
+				806D3C212982E7EC00BF8FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		806D3C212982E7EC00BF8FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				806D3C202982E7EC00BF8FC8 /* travel-cost-tracker.app */,
+				806D3C362982E7ED00BF8FC8 /* travel-cost-trackerTests.xctest */,
+				806D3C402982E7ED00BF8FC8 /* travel-cost-trackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		806D3C222982E7EC00BF8FC8 /* travel-cost-tracker */ = {
+			isa = PBXGroup;
+			children = (
+				806D3C232982E7EC00BF8FC8 /* travel_cost_trackerApp.swift */,
+				806D3C252982E7EC00BF8FC8 /* ContentView.swift */,
+				806D3C272982E7EC00BF8FC8 /* Assets.xcassets */,
+				806D3C2C2982E7EC00BF8FC8 /* Persistence.swift */,
+				806D3C312982E7EC00BF8FC8 /* Info.plist */,
+				806D3C2E2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodeld */,
+				806D3C292982E7EC00BF8FC8 /* Preview Content */,
+			);
+			path = "travel-cost-tracker";
+			sourceTree = "<group>";
+		};
+		806D3C292982E7EC00BF8FC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				806D3C2A2982E7EC00BF8FC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		806D3C392982E7ED00BF8FC8 /* travel-cost-trackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				806D3C3A2982E7ED00BF8FC8 /* travel_cost_trackerTests.swift */,
+			);
+			path = "travel-cost-trackerTests";
+			sourceTree = "<group>";
+		};
+		806D3C432982E7ED00BF8FC8 /* travel-cost-trackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				806D3C442982E7ED00BF8FC8 /* travel_cost_trackerUITests.swift */,
+				806D3C462982E7ED00BF8FC8 /* travel_cost_trackerUITestsLaunchTests.swift */,
+			);
+			path = "travel-cost-trackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		806D3C1F2982E7EC00BF8FC8 /* travel-cost-tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806D3C4A2982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-tracker" */;
+			buildPhases = (
+				806D3C1C2982E7EC00BF8FC8 /* Sources */,
+				806D3C1D2982E7EC00BF8FC8 /* Frameworks */,
+				806D3C1E2982E7EC00BF8FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "travel-cost-tracker";
+			productName = "travel-cost-tracker";
+			productReference = 806D3C202982E7EC00BF8FC8 /* travel-cost-tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		806D3C352982E7ED00BF8FC8 /* travel-cost-trackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806D3C4D2982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-trackerTests" */;
+			buildPhases = (
+				806D3C322982E7ED00BF8FC8 /* Sources */,
+				806D3C332982E7ED00BF8FC8 /* Frameworks */,
+				806D3C342982E7ED00BF8FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806D3C382982E7ED00BF8FC8 /* PBXTargetDependency */,
+			);
+			name = "travel-cost-trackerTests";
+			productName = "travel-cost-trackerTests";
+			productReference = 806D3C362982E7ED00BF8FC8 /* travel-cost-trackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		806D3C3F2982E7ED00BF8FC8 /* travel-cost-trackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 806D3C502982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-trackerUITests" */;
+			buildPhases = (
+				806D3C3C2982E7ED00BF8FC8 /* Sources */,
+				806D3C3D2982E7ED00BF8FC8 /* Frameworks */,
+				806D3C3E2982E7ED00BF8FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				806D3C422982E7ED00BF8FC8 /* PBXTargetDependency */,
+			);
+			name = "travel-cost-trackerUITests";
+			productName = "travel-cost-trackerUITests";
+			productReference = 806D3C402982E7ED00BF8FC8 /* travel-cost-trackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		806D3C182982E7EC00BF8FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					806D3C1F2982E7EC00BF8FC8 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					806D3C352982E7ED00BF8FC8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 806D3C1F2982E7EC00BF8FC8;
+					};
+					806D3C3F2982E7ED00BF8FC8 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 806D3C1F2982E7EC00BF8FC8;
+					};
+				};
+			};
+			buildConfigurationList = 806D3C1B2982E7EC00BF8FC8 /* Build configuration list for PBXProject "travel-cost-tracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 806D3C172982E7EC00BF8FC8;
+			productRefGroup = 806D3C212982E7EC00BF8FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				806D3C1F2982E7EC00BF8FC8 /* travel-cost-tracker */,
+				806D3C352982E7ED00BF8FC8 /* travel-cost-trackerTests */,
+				806D3C3F2982E7ED00BF8FC8 /* travel-cost-trackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		806D3C1E2982E7EC00BF8FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D3C2B2982E7EC00BF8FC8 /* Preview Assets.xcassets in Resources */,
+				806D3C282982E7EC00BF8FC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C342982E7ED00BF8FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C3E2982E7ED00BF8FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		806D3C1C2982E7EC00BF8FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D3C2D2982E7EC00BF8FC8 /* Persistence.swift in Sources */,
+				806D3C262982E7EC00BF8FC8 /* ContentView.swift in Sources */,
+				806D3C302982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodeld in Sources */,
+				806D3C242982E7EC00BF8FC8 /* travel_cost_trackerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C322982E7ED00BF8FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D3C3B2982E7ED00BF8FC8 /* travel_cost_trackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		806D3C3C2982E7ED00BF8FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				806D3C472982E7ED00BF8FC8 /* travel_cost_trackerUITestsLaunchTests.swift in Sources */,
+				806D3C452982E7ED00BF8FC8 /* travel_cost_trackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		806D3C382982E7ED00BF8FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806D3C1F2982E7EC00BF8FC8 /* travel-cost-tracker */;
+			targetProxy = 806D3C372982E7ED00BF8FC8 /* PBXContainerItemProxy */;
+		};
+		806D3C422982E7ED00BF8FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 806D3C1F2982E7EC00BF8FC8 /* travel-cost-tracker */;
+			targetProxy = 806D3C412982E7ED00BF8FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		806D3C482982E7ED00BF8FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		806D3C492982E7ED00BF8FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		806D3C4B2982E7ED00BF8FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travel-cost-tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		806D3C4C2982E7ED00BF8FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"travel-cost-tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-tracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		806D3C4E2982E7ED00BF8FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travel-cost-tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/travel-cost-tracker";
+			};
+			name = Debug;
+		};
+		806D3C4F2982E7ED00BF8FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-trackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/travel-cost-tracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/travel-cost-tracker";
+			};
+			name = Release;
+		};
+		806D3C512982E7ED00BF8FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "travel-cost-tracker";
+			};
+			name = Debug;
+		};
+		806D3C522982E7ED00BF8FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "code.josavicente.travel-cost-trackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "travel-cost-tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		806D3C1B2982E7EC00BF8FC8 /* Build configuration list for PBXProject "travel-cost-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D3C482982E7ED00BF8FC8 /* Debug */,
+				806D3C492982E7ED00BF8FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806D3C4A2982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D3C4B2982E7ED00BF8FC8 /* Debug */,
+				806D3C4C2982E7ED00BF8FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806D3C4D2982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-trackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D3C4E2982E7ED00BF8FC8 /* Debug */,
+				806D3C4F2982E7ED00BF8FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		806D3C502982E7ED00BF8FC8 /* Build configuration list for PBXNativeTarget "travel-cost-trackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D3C512982E7ED00BF8FC8 /* Debug */,
+				806D3C522982E7ED00BF8FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		806D3C2E2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				806D3C2F2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodel */,
+			);
+			currentVersion = 806D3C2F2982E7EC00BF8FC8 /* travel_cost_tracker.xcdatamodel */;
+			path = travel_cost_tracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 806D3C182982E7EC00BF8FC8 /* Project object */;
+}
